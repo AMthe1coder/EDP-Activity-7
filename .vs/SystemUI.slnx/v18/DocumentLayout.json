@@ -1,0 +1,355 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Alyssa\\source\\repos\\SystemUI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{14C9CF61-F379-4857-8E8A-79154D99CD72}|SystemUI.csproj|C:\\Users\\Alyssa\\source\\repos\\SystemUI\\views\\reportgeneratorview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14C9CF61-F379-4857-8E8A-79154D99CD72}|SystemUI.csproj|solutionrelative:views\\reportgeneratorview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14C9CF61-F379-4857-8E8A-79154D99CD72}|SystemUI.csproj|C:\\Users\\Alyssa\\source\\repos\\SystemUI\\views\\playlistmanagementview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14C9CF61-F379-4857-8E8A-79154D99CD72}|SystemUI.csproj|solutionrelative:views\\playlistmanagementview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14C9CF61-F379-4857-8E8A-79154D99CD72}|SystemUI.csproj|C:\\Users\\Alyssa\\source\\repos\\SystemUI\\views\\loginview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14C9CF61-F379-4857-8E8A-79154D99CD72}|SystemUI.csproj|solutionrelative:views\\loginview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14C9CF61-F379-4857-8E8A-79154D99CD72}|SystemUI.csproj|C:\\Users\\Alyssa\\source\\repos\\SystemUI\\views\\passrecoveryview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14C9CF61-F379-4857-8E8A-79154D99CD72}|SystemUI.csproj|solutionrelative:views\\passrecoveryview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14C9CF61-F379-4857-8E8A-79154D99CD72}|SystemUI.csproj|C:\\Users\\Alyssa\\source\\repos\\SystemUI\\views\\aboutview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14C9CF61-F379-4857-8E8A-79154D99CD72}|SystemUI.csproj|solutionrelative:views\\aboutview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14C9CF61-F379-4857-8E8A-79154D99CD72}|SystemUI.csproj|c:\\users\\alyssa\\source\\repos\\systemui\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14C9CF61-F379-4857-8E8A-79154D99CD72}|SystemUI.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14C9CF61-F379-4857-8E8A-79154D99CD72}|SystemUI.csproj|c:\\users\\alyssa\\source\\repos\\systemui\\views\\dashboard.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{14C9CF61-F379-4857-8E8A-79154D99CD72}|SystemUI.csproj|solutionrelative:views\\dashboard.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14C9CF61-F379-4857-8E8A-79154D99CD72}|SystemUI.csproj|C:\\Users\\Alyssa\\source\\repos\\SystemUI\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{14C9CF61-F379-4857-8E8A-79154D99CD72}|SystemUI.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14C9CF61-F379-4857-8E8A-79154D99CD72}|SystemUI.csproj|C:\\Users\\Alyssa\\source\\repos\\SystemUI\\views\\borrowingview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14C9CF61-F379-4857-8E8A-79154D99CD72}|SystemUI.csproj|solutionrelative:views\\borrowingview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14C9CF61-F379-4857-8E8A-79154D99CD72}|SystemUI.csproj|C:\\Users\\Alyssa\\source\\repos\\SystemUI\\views\\dashboard.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14C9CF61-F379-4857-8E8A-79154D99CD72}|SystemUI.csproj|solutionrelative:views\\dashboard.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14C9CF61-F379-4857-8E8A-79154D99CD72}|SystemUI.csproj|C:\\Users\\Alyssa\\source\\repos\\SystemUI\\views\\registerview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14C9CF61-F379-4857-8E8A-79154D99CD72}|SystemUI.csproj|solutionrelative:views\\registerview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14C9CF61-F379-4857-8E8A-79154D99CD72}|SystemUI.csproj|C:\\Users\\Alyssa\\source\\repos\\SystemUI\\views\\songmanagementview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14C9CF61-F379-4857-8E8A-79154D99CD72}|SystemUI.csproj|solutionrelative:views\\songmanagementview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14C9CF61-F379-4857-8E8A-79154D99CD72}|SystemUI.csproj|C:\\Users\\Alyssa\\source\\repos\\SystemUI\\views\\usermanagementview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14C9CF61-F379-4857-8E8A-79154D99CD72}|SystemUI.csproj|solutionrelative:views\\usermanagementview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14C9CF61-F379-4857-8E8A-79154D99CD72}|SystemUI.csproj|C:\\Users\\Alyssa\\source\\repos\\SystemUI\\dbconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14C9CF61-F379-4857-8E8A-79154D99CD72}|SystemUI.csproj|solutionrelative:dbconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14C9CF61-F379-4857-8E8A-79154D99CD72}|SystemUI.csproj|C:\\Users\\Alyssa\\source\\repos\\SystemUI\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14C9CF61-F379-4857-8E8A-79154D99CD72}|SystemUI.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14C9CF61-F379-4857-8E8A-79154D99CD72}|SystemUI.csproj|C:\\Users\\Alyssa\\source\\repos\\SystemUI\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{14C9CF61-F379-4857-8E8A-79154D99CD72}|SystemUI.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14C9CF61-F379-4857-8E8A-79154D99CD72}|SystemUI.csproj|C:\\Users\\Alyssa\\source\\repos\\SystemUI\\views\\reportgeneratorview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{14C9CF61-F379-4857-8E8A-79154D99CD72}|SystemUI.csproj|solutionrelative:views\\reportgeneratorview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14C9CF61-F379-4857-8E8A-79154D99CD72}|SystemUI.csproj|C:\\Users\\Alyssa\\source\\repos\\SystemUI\\views\\playlistmanagementview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{14C9CF61-F379-4857-8E8A-79154D99CD72}|SystemUI.csproj|solutionrelative:views\\playlistmanagementview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14C9CF61-F379-4857-8E8A-79154D99CD72}|SystemUI.csproj|C:\\Users\\Alyssa\\source\\repos\\SystemUI\\views\\songmanagementview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{14C9CF61-F379-4857-8E8A-79154D99CD72}|SystemUI.csproj|solutionrelative:views\\songmanagementview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14C9CF61-F379-4857-8E8A-79154D99CD72}|SystemUI.csproj|C:\\Users\\Alyssa\\source\\repos\\SystemUI\\views\\aboutview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{14C9CF61-F379-4857-8E8A-79154D99CD72}|SystemUI.csproj|solutionrelative:views\\aboutview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|SystemUI||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Dashboard.xaml",
+              "DocumentMoniker": "C:\\Users\\Alyssa\\source\\repos\\SystemUI\\Views\\Dashboard.xaml",
+              "RelativeDocumentMoniker": "Views\\Dashboard.xaml",
+              "ToolTip": "C:\\Users\\Alyssa\\source\\repos\\SystemUI\\Views\\Dashboard.xaml",
+              "RelativeToolTip": "Views\\Dashboard.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-06-02T09:47:11.712Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Alyssa\\source\\repos\\SystemUI\\App.xaml.cs",
+              "RelativeDocumentMoniker": "App.xaml.cs",
+              "ToolTip": "C:\\Users\\Alyssa\\source\\repos\\SystemUI\\App.xaml.cs",
+              "RelativeToolTip": "App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-02T08:57:16.898Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\Alyssa\\source\\repos\\SystemUI\\App.xaml",
+              "RelativeDocumentMoniker": "App.xaml",
+              "ToolTip": "C:\\Users\\Alyssa\\source\\repos\\SystemUI\\App.xaml",
+              "RelativeToolTip": "App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-06-02T08:57:16.917Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AboutView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Alyssa\\source\\repos\\SystemUI\\Views\\AboutView.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\AboutView.xaml.cs",
+              "ToolTip": "C:\\Users\\Alyssa\\source\\repos\\SystemUI\\Views\\AboutView.xaml.cs",
+              "RelativeToolTip": "Views\\AboutView.xaml.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAuwB0AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-02T08:57:16.919Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PassRecoveryView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Alyssa\\source\\repos\\SystemUI\\Views\\PassRecoveryView.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\PassRecoveryView.xaml.cs",
+              "ToolTip": "C:\\Users\\Alyssa\\source\\repos\\SystemUI\\Views\\PassRecoveryView.xaml.cs",
+              "RelativeToolTip": "Views\\PassRecoveryView.xaml.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-02T08:57:16.922Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoginView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Alyssa\\source\\repos\\SystemUI\\Views\\LoginView.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\LoginView.xaml.cs",
+              "ToolTip": "C:\\Users\\Alyssa\\source\\repos\\SystemUI\\Views\\LoginView.xaml.cs",
+              "RelativeToolTip": "Views\\LoginView.xaml.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-02T08:57:16.924Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PlaylistManagementView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Alyssa\\source\\repos\\SystemUI\\Views\\PlaylistManagementView.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\PlaylistManagementView.xaml.cs",
+              "ToolTip": "C:\\Users\\Alyssa\\source\\repos\\SystemUI\\Views\\PlaylistManagementView.xaml.cs",
+              "RelativeToolTip": "Views\\PlaylistManagementView.xaml.cs",
+              "ViewState": "AgIAAHkBAAAAAAAAAAAAAO8AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-02T08:57:16.925Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ReportGeneratorView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Alyssa\\source\\repos\\SystemUI\\Views\\ReportGeneratorView.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\ReportGeneratorView.xaml.cs",
+              "ToolTip": "C:\\Users\\Alyssa\\source\\repos\\SystemUI\\Views\\ReportGeneratorView.xaml.cs",
+              "RelativeToolTip": "Views\\ReportGeneratorView.xaml.cs",
+              "ViewState": "AgIAAGcAAAAAAAAAAAAUwG8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-02T08:57:16.927Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SongManagementView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Alyssa\\source\\repos\\SystemUI\\Views\\SongManagementView.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\SongManagementView.xaml.cs",
+              "ToolTip": "C:\\Users\\Alyssa\\source\\repos\\SystemUI\\Views\\SongManagementView.xaml.cs",
+              "RelativeToolTip": "Views\\SongManagementView.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJ7SURBVDhP7ZQ9aBNhGMef9y7t2eH0TOPHnbnzzmDjkpTqNSEdShDBpRbBQbEI/bCSRVA7iFWk1OpS0CGDH5OlgQgZihRioTgU0VzTEKhSTeLg2aYBLUIgzfUj17wuXptcQUFdBH/j83//P953eF4AE0eGZljXkLL4ZErFsY9LA\u002Bb8VyDz4NGUyiKARDJb5A7srMkc27Wcjr98DpFIBLxeL/A8Hx4cHAybewbkwZuvB9aPXvDrcqcfPJ3\u002BN2rBX1dDtMTUZeqbptfr\u002BgYqZd/G5ubmzrAs66Ioql6W5dL09PQ7swwAgGRaL/YVS5jTcZkDBBwug50kCelLoWQBQIAttbHJh7f6McadVqs1RdP0HoRQk8/n\u002B\u002BR0OnOzs7N6pXDbk1\u002B8/8oifSMxMrPECUzt8mmXdezsCfk6QRAJh8Nxw\u002BPxHNI07TIA6ABwslwufwgGg2tGn6jWAdyb\u002BAx3J7PgE2k43rD7Md5Re8XIenp6HnR3dwMAXAWAeoTQBEKotbJfdcPh4eHmdUz0TerusXMtDVoTX5f2OvZment7WYvFklhZWeHm5\u002BczuVwuzzCM50etXVGUccNh2dIBKIqyjyCI1v3kzLVA/7OcMW9sbCwUi8X70WiUVlUVAABWV1dfYYwvEcS2R24hSVKbKIo5nuc5c2ZGEARWFMVFSZJOVc5/ov89/gv/nH9MSFEU2Gw2aygUeppOp41N2EYqlWoOhUIjgiBYGYapyqpWLxAItJEkOW632yEej4eTyWSmMjdwu92HZVk\u002Bn8/nQdf19mAwuLl6VcLR0dFmTdNuRyIRWFhYgLW1zU\u002BkCpIkwWazQVdXF9A0faejoyNuPvPX\u002BA5Fb\u002BAHZWstowAAAABJRU5ErkJggg==",
+              "WhenOpened": "2026-06-02T08:57:16.928Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UserManagementView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Alyssa\\source\\repos\\SystemUI\\Views\\UserManagementView.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\UserManagementView.xaml.cs",
+              "ToolTip": "C:\\Users\\Alyssa\\source\\repos\\SystemUI\\Views\\UserManagementView.xaml.cs",
+              "RelativeToolTip": "Views\\UserManagementView.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJ7SURBVDhP7ZQ9aBNhGMef9y7t2eH0TOPHnbnzzmDjkpTqNSEdShDBpRbBQbEI/bCSRVA7iFWk1OpS0CGDH5OlgQgZihRioTgU0VzTEKhSTeLg2aYBLUIgzfUj17wuXptcQUFdBH/j83//P953eF4AE0eGZljXkLL4ZErFsY9LA\u002Bb8VyDz4NGUyiKARDJb5A7srMkc27Wcjr98DpFIBLxeL/A8Hx4cHAybewbkwZuvB9aPXvDrcqcfPJ3\u002BN2rBX1dDtMTUZeqbptfr\u002BgYqZd/G5ubmzrAs66Ioql6W5dL09PQ7swwAgGRaL/YVS5jTcZkDBBwug50kCelLoWQBQIAttbHJh7f6McadVqs1RdP0HoRQk8/n\u002B\u002BR0OnOzs7N6pXDbk1\u002B8/8oifSMxMrPECUzt8mmXdezsCfk6QRAJh8Nxw\u002BPxHNI07TIA6ABwslwufwgGg2tGn6jWAdyb\u002BAx3J7PgE2k43rD7Md5Re8XIenp6HnR3dwMAXAWAeoTQBEKotbJfdcPh4eHmdUz0TerusXMtDVoTX5f2OvZment7WYvFklhZWeHm5\u002BczuVwuzzCM50etXVGUccNh2dIBKIqyjyCI1v3kzLVA/7OcMW9sbCwUi8X70WiUVlUVAABWV1dfYYwvEcS2R24hSVKbKIo5nuc5c2ZGEARWFMVFSZJOVc5/ov89/gv/nH9MSFEU2Gw2aygUeppOp41N2EYqlWoOhUIjgiBYGYapyqpWLxAItJEkOW632yEej4eTyWSmMjdwu92HZVk\u002Bn8/nQdf19mAwuLl6VcLR0dFmTdNuRyIRWFhYgLW1zU\u002BkCpIkwWazQVdXF9A0faejoyNuPvPX\u002BA5Fb\u002BAHZWstowAAAABJRU5ErkJggg==",
+              "WhenOpened": "2026-06-02T08:57:16.929Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "DBConnection.cs",
+              "DocumentMoniker": "C:\\Users\\Alyssa\\source\\repos\\SystemUI\\DBConnection.cs",
+              "RelativeDocumentMoniker": "DBConnection.cs",
+              "ToolTip": "C:\\Users\\Alyssa\\source\\repos\\SystemUI\\DBConnection.cs",
+              "RelativeToolTip": "DBConnection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKmSURBVDhP7dFPSJNxHAbw5/vunQ3xbU4naqaSMxObhTkqA\u002B3PQUrwEISU9AfyX6dyEd0ko1NQblYQKdLB1ENKsDoEUSEWNrc0LaxMDwnmdJbOmZtu7/vtkBvvpZMdfW7fHx94HvgBG1lvCAC\u002BL3w39Hzr0T358gifvZPISMqAtdCK0sQCf3KyeSmCO0Y6DFpBG6owVywxXxPah01GY6zRV5ZTthIxAgAEggGboJA7xBo3iWG3qJA7Rhbdv2RNXQQCQDAUtPlX/XUA0D5sMobl0HPP0lSJ2ogAcGfIliAK4pbdibtcC8GFe4VJFpvT40wY8AxIavxwtCWBAQkAWj/aNQpiksHQqQ0BQE5LliNzc6ZUnFLSKjMcRFTX73lTuxTyd53Lr\u002Br8HfBX2j80wbfiO0VEPwD0MjgOQC0Yz0x609g2aftY94nuThEAvMuz8Aa8vS9Ovu5cK7ptbsuNJYUnREXUg4TCv/WkZ2YQoRBMOhC0IM4GSNIIUKIzDfY4h6FZaow\u002B/CNqZ2yKTY23S1PxzVK52gjq43\u002BEsNYMosH5S/7oSnNbbgMB49aCq\u002BOLq74G29At\u002BFYX94LZR8BXJugAKgZ4xKTPnsnSm1yPj/fcEAEgTUpHupR\u002BsKivqFI2wEHzVNc7\u002Ber04qqvKyyE3zMrgwAA5h1rnzIIcBzA\u002B8GYAPMYyzQRXXjl5WVHWJHLF1cWXE5P/90jGaV2ZiVBVuTr9489iK4\u002B0L7PwcBg/xlnY3H7nlQFWjeYLrw9\u002B\u002B5pxAgAUJVXM58amzLtmnFt9Qbmbo7OfVo5lHZ4\u002BmJBvT8CAaA6r2a\u002BemetHwBq8uvl83k1s1Xm2qDaCAAgh2QrWLCILFtkkIUgWkRNyAINWtRY3sRWXuYWANCN6X4qWj5KPupTm42sP38A\u002BPobLn6iw4AAAAAASUVORK5CYII=",
+              "WhenOpened": "2026-06-02T08:57:16.93Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Alyssa\\source\\repos\\SystemUI\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "C:\\Users\\Alyssa\\source\\repos\\SystemUI\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-06-02T08:57:16.933Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ReportGeneratorView.xaml",
+              "DocumentMoniker": "C:\\Users\\Alyssa\\source\\repos\\SystemUI\\Views\\ReportGeneratorView.xaml",
+              "RelativeDocumentMoniker": "Views\\ReportGeneratorView.xaml",
+              "ToolTip": "C:\\Users\\Alyssa\\source\\repos\\SystemUI\\Views\\ReportGeneratorView.xaml",
+              "RelativeToolTip": "Views\\ReportGeneratorView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-06-02T06:37:37.851Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "RegisterView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Alyssa\\source\\repos\\SystemUI\\Views\\RegisterView.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\RegisterView.xaml.cs",
+              "ToolTip": "C:\\Users\\Alyssa\\source\\repos\\SystemUI\\Views\\RegisterView.xaml.cs",
+              "RelativeToolTip": "Views\\RegisterView.xaml.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAuwEkAAAABAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJ7SURBVDhP7ZQ9aBNhGMef9y7t2eH0TOPHnbnzzmDjkpTqNSEdShDBpRbBQbEI/bCSRVA7iFWk1OpS0CGDH5OlgQgZihRioTgU0VzTEKhSTeLg2aYBLUIgzfUj17wuXptcQUFdBH/j83//P953eF4AE0eGZljXkLL4ZErFsY9LA\u002Bb8VyDz4NGUyiKARDJb5A7srMkc27Wcjr98DpFIBLxeL/A8Hx4cHAybewbkwZuvB9aPXvDrcqcfPJ3\u002BN2rBX1dDtMTUZeqbptfr\u002BgYqZd/G5ubmzrAs66Ioql6W5dL09PQ7swwAgGRaL/YVS5jTcZkDBBwug50kCelLoWQBQIAttbHJh7f6McadVqs1RdP0HoRQk8/n\u002B\u002BR0OnOzs7N6pXDbk1\u002B8/8oifSMxMrPECUzt8mmXdezsCfk6QRAJh8Nxw\u002BPxHNI07TIA6ABwslwufwgGg2tGn6jWAdyb\u002BAx3J7PgE2k43rD7Md5Re8XIenp6HnR3dwMAXAWAeoTQBEKotbJfdcPh4eHmdUz0TerusXMtDVoTX5f2OvZment7WYvFklhZWeHm5\u002BczuVwuzzCM50etXVGUccNh2dIBKIqyjyCI1v3kzLVA/7OcMW9sbCwUi8X70WiUVlUVAABWV1dfYYwvEcS2R24hSVKbKIo5nuc5c2ZGEARWFMVFSZJOVc5/ov89/gv/nH9MSFEU2Gw2aygUeppOp41N2EYqlWoOhUIjgiBYGYapyqpWLxAItJEkOW632yEej4eTyWSmMjdwu92HZVk\u002Bn8/nQdf19mAwuLl6VcLR0dFmTdNuRyIRWFhYgLW1zU\u002BkCpIkwWazQVdXF9A0faejoyNuPvPX\u002BA5Fb\u002BAHZWstowAAAABJRU5ErkJggg==",
+              "WhenOpened": "2026-06-02T08:57:16.937Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Dashboard.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Alyssa\\source\\repos\\SystemUI\\Views\\Dashboard.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\Dashboard.xaml.cs",
+              "ToolTip": "C:\\Users\\Alyssa\\source\\repos\\SystemUI\\Views\\Dashboard.xaml.cs",
+              "RelativeToolTip": "Views\\Dashboard.xaml.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAUwEYAAAABAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJ7SURBVDhP7ZQ9aBNhGMef9y7t2eH0TOPHnbnzzmDjkpTqNSEdShDBpRbBQbEI/bCSRVA7iFWk1OpS0CGDH5OlgQgZihRioTgU0VzTEKhSTeLg2aYBLUIgzfUj17wuXptcQUFdBH/j83//P953eF4AE0eGZljXkLL4ZErFsY9LA\u002Bb8VyDz4NGUyiKARDJb5A7srMkc27Wcjr98DpFIBLxeL/A8Hx4cHAybewbkwZuvB9aPXvDrcqcfPJ3\u002BN2rBX1dDtMTUZeqbptfr\u002BgYqZd/G5ubmzrAs66Ioql6W5dL09PQ7swwAgGRaL/YVS5jTcZkDBBwug50kCelLoWQBQIAttbHJh7f6McadVqs1RdP0HoRQk8/n\u002B\u002BR0OnOzs7N6pXDbk1\u002B8/8oifSMxMrPECUzt8mmXdezsCfk6QRAJh8Nxw\u002BPxHNI07TIA6ABwslwufwgGg2tGn6jWAdyb\u002BAx3J7PgE2k43rD7Md5Re8XIenp6HnR3dwMAXAWAeoTQBEKotbJfdcPh4eHmdUz0TerusXMtDVoTX5f2OvZment7WYvFklhZWeHm5\u002BczuVwuzzCM50etXVGUccNh2dIBKIqyjyCI1v3kzLVA/7OcMW9sbCwUi8X70WiUVlUVAABWV1dfYYwvEcS2R24hSVKbKIo5nuc5c2ZGEARWFMVFSZJOVc5/ov89/gv/nH9MSFEU2Gw2aygUeppOp41N2EYqlWoOhUIjgiBYGYapyqpWLxAItJEkOW632yEej4eTyWSmMjdwu92HZVk\u002Bn8/nQdf19mAwuLl6VcLR0dFmTdNuRyIRWFhYgLW1zU\u002BkCpIkwWazQVdXF9A0faejoyNuPvPX\u002BA5Fb\u002BAHZWstowAAAABJRU5ErkJggg==",
+              "WhenOpened": "2026-06-02T08:57:16.938Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BorrowingView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Alyssa\\source\\repos\\SystemUI\\Views\\BorrowingView.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\BorrowingView.xaml.cs",
+              "ToolTip": "C:\\Users\\Alyssa\\source\\repos\\SystemUI\\Views\\BorrowingView.xaml.cs",
+              "RelativeToolTip": "Views\\BorrowingView.xaml.cs",
+              "ViewState": "AgIAAIgAAAAAAAAAAAAAAKMAAAABAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJ7SURBVDhP7ZQ9aBNhGMef9y7t2eH0TOPHnbnzzmDjkpTqNSEdShDBpRbBQbEI/bCSRVA7iFWk1OpS0CGDH5OlgQgZihRioTgU0VzTEKhSTeLg2aYBLUIgzfUj17wuXptcQUFdBH/j83//P953eF4AE0eGZljXkLL4ZErFsY9LA\u002Bb8VyDz4NGUyiKARDJb5A7srMkc27Wcjr98DpFIBLxeL/A8Hx4cHAybewbkwZuvB9aPXvDrcqcfPJ3\u002BN2rBX1dDtMTUZeqbptfr\u002BgYqZd/G5ubmzrAs66Ioql6W5dL09PQ7swwAgGRaL/YVS5jTcZkDBBwug50kCelLoWQBQIAttbHJh7f6McadVqs1RdP0HoRQk8/n\u002B\u002BR0OnOzs7N6pXDbk1\u002B8/8oifSMxMrPECUzt8mmXdezsCfk6QRAJh8Nxw\u002BPxHNI07TIA6ABwslwufwgGg2tGn6jWAdyb\u002BAx3J7PgE2k43rD7Md5Re8XIenp6HnR3dwMAXAWAeoTQBEKotbJfdcPh4eHmdUz0TerusXMtDVoTX5f2OvZment7WYvFklhZWeHm5\u002BczuVwuzzCM50etXVGUccNh2dIBKIqyjyCI1v3kzLVA/7OcMW9sbCwUi8X70WiUVlUVAABWV1dfYYwvEcS2R24hSVKbKIo5nuc5c2ZGEARWFMVFSZJOVc5/ov89/gv/nH9MSFEU2Gw2aygUeppOp41N2EYqlWoOhUIjgiBYGYapyqpWLxAItJEkOW632yEej4eTyWSmMjdwu92HZVk\u002Bn8/nQdf19mAwuLl6VcLR0dFmTdNuRyIRWFhYgLW1zU\u002BkCpIkwWazQVdXF9A0faejoyNuPvPX\u002BA5Fb\u002BAHZWstowAAAABJRU5ErkJggg==",
+              "WhenOpened": "2026-06-02T08:57:16.941Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "PlaylistManagementView.xaml",
+              "DocumentMoniker": "C:\\Users\\Alyssa\\source\\repos\\SystemUI\\Views\\PlaylistManagementView.xaml",
+              "RelativeDocumentMoniker": "Views\\PlaylistManagementView.xaml",
+              "ToolTip": "C:\\Users\\Alyssa\\source\\repos\\SystemUI\\Views\\PlaylistManagementView.xaml",
+              "RelativeToolTip": "Views\\PlaylistManagementView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-06-02T08:36:43.334Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "SongManagementView.xaml",
+              "DocumentMoniker": "C:\\Users\\Alyssa\\source\\repos\\SystemUI\\Views\\SongManagementView.xaml",
+              "RelativeDocumentMoniker": "Views\\SongManagementView.xaml",
+              "ToolTip": "C:\\Users\\Alyssa\\source\\repos\\SystemUI\\Views\\SongManagementView.xaml",
+              "RelativeToolTip": "Views\\SongManagementView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-06-02T06:31:49.313Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AboutView.xaml",
+              "DocumentMoniker": "C:\\Users\\Alyssa\\source\\repos\\SystemUI\\Views\\AboutView.xaml",
+              "RelativeDocumentMoniker": "Views\\AboutView.xaml",
+              "ToolTip": "C:\\Users\\Alyssa\\source\\repos\\SystemUI\\Views\\AboutView.xaml",
+              "RelativeToolTip": "Views\\AboutView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-06-02T08:36:27.741Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "SystemUI",
+              "DocumentMoniker": "C:\\Users\\Alyssa\\source\\repos\\SystemUI\\SystemUI.csproj",
+              "RelativeDocumentMoniker": "SystemUI.csproj",
+              "ToolTip": "C:\\Users\\Alyssa\\source\\repos\\SystemUI\\SystemUI.csproj",
+              "RelativeToolTip": "SystemUI.csproj",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAALUSURBVDhP5ZRfSFNRHMe/5267zrur003TDJrTQJx/yGHRCMFAM3CTRHqoJ6EyiHyIyDdBHwoSRz340OpFihYMwzCD6GnkSOthD7aFuzhMJMUY5vXavNe7u9NLylwpPQZ94Lz8fr/P9xwOhwP8dxAA8Pl8J2ZmZkqmp6ehKEr2zIF0dnbCbrcLvb29AgDoAUCSpH69Xu/heV6RZXktW/oThBCd2Wy2Ukp1siwPAhgAAAYARkdHUVxcDK/XO6VpWuPfrK6urraRkZGEKIoIBAJ7d7PZbBPt7e3\u002BWCx2cm9nfwRByBEEodXlcn2orKwc2KkT/AoEEO5\u002B2u1PqslL/rknaDl6FscKKoL9TYNBR8DBM5J2jdGTV9o2LWOAsk9XY/5Md3FxcQAAdABQUFBwEcCK5Uy\u002BIqUkn8VoaTYZuOat1NbidlvqM01uuxVNvbMp/1BSVG2hhLQfOV\u002B6kNtpWkYQFwCsiKIYxM4d7jC\u002B8BKhr1PpW87b3yilK1PL7ySqqvVpiuHvypp5U5VurCtih7S9UQ9Kh/NSeeZMH9mBALCurCfG4i/OMZqhUaV4tMEkQ0m62Zam6QQFuQkCn6IpU5Tq2yLmSCLb/y2QZ03mjnLPPU2vPmQJcfOUr\u002BNgGiJgzCD0Oig8rI6tA9GGHKLj4BO6Slw4XtSQ8/rLZCtD4XFYaqp0KU0EQ2bzWF7NYXLinIFbztVxIkh6ViOamukjO/DU4dOr1ZbqyTEhMElBJmsKa4XZnjmBUP3dPEP\u002BeKmx5IGVLXzMs6Znkcsxb\u002BxKTMr0dykvL59oaGgYjkQiluzeflBKmfn5\u002BUNVVVVvbTbb7jtkAIDjOLjd7h6WZe/vsQ4gHo8XaZr2pra2timzTgCgr69vQhRFz9LS0mo0Gv2YObAfHMcZnU5nk9VqNRoMhkGv1zuAnc/Bbrc/D4VC4Wg0mu3tiyzLCIfD791uNyoqKoLZ/X\u002BXn25ERIg8ycqdAAAAAElFTkSuQmCC",
+              "WhenOpened": "2026-05-31T09:49:33.831Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Alyssa\\source\\repos\\SystemUI\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Alyssa\\source\\repos\\SystemUI\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAA7wCoAAAABAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJ7SURBVDhP7ZQ9aBNhGMef9y7t2eH0TOPHnbnzzmDjkpTqNSEdShDBpRbBQbEI/bCSRVA7iFWk1OpS0CGDH5OlgQgZihRioTgU0VzTEKhSTeLg2aYBLUIgzfUj17wuXptcQUFdBH/j83//P953eF4AE0eGZljXkLL4ZErFsY9LA\u002Bb8VyDz4NGUyiKARDJb5A7srMkc27Wcjr98DpFIBLxeL/A8Hx4cHAybewbkwZuvB9aPXvDrcqcfPJ3\u002BN2rBX1dDtMTUZeqbptfr\u002BgYqZd/G5ubmzrAs66Ioql6W5dL09PQ7swwAgGRaL/YVS5jTcZkDBBwug50kCelLoWQBQIAttbHJh7f6McadVqs1RdP0HoRQk8/n\u002B\u002BR0OnOzs7N6pXDbk1\u002B8/8oifSMxMrPECUzt8mmXdezsCfk6QRAJh8Nxw\u002BPxHNI07TIA6ABwslwufwgGg2tGn6jWAdyb\u002BAx3J7PgE2k43rD7Md5Re8XIenp6HnR3dwMAXAWAeoTQBEKotbJfdcPh4eHmdUz0TerusXMtDVoTX5f2OvZment7WYvFklhZWeHm5\u002BczuVwuzzCM50etXVGUccNh2dIBKIqyjyCI1v3kzLVA/7OcMW9sbCwUi8X70WiUVlUVAABWV1dfYYwvEcS2R24hSVKbKIo5nuc5c2ZGEARWFMVFSZJOVc5/ov89/gv/nH9MSFEU2Gw2aygUeppOp41N2EYqlWoOhUIjgiBYGYapyqpWLxAItJEkOW632yEej4eTyWSmMjdwu92HZVk\u002Bn8/nQdf19mAwuLl6VcLR0dFmTdNuRyIRWFhYgLW1zU\u002BkCpIkwWazQVdXF9A0faejoyNuPvPX\u002BA5Fb\u002BAHZWstowAAAABJRU5ErkJggg==",
+              "WhenOpened": "2026-06-02T08:57:16.951Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

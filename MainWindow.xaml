@@ -1,0 +1,169 @@
+<Window x:Class="SystemUI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SystemUI"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="500" Width="900"
+        WindowStyle="None"
+        ResizeMode="NoResize"
+        Background="#2d283e">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <Grid x:Name="TopNav" Height="40" Background="#2A1B3D" Grid.ColumnSpan="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="15"/>
+                <ColumnDefinition Width="30"/>
+                <ColumnDefinition Width="90"/>
+                <ColumnDefinition/>
+                <ColumnDefinition Width="60"/>
+                <ColumnDefinition Width="60"/>
+                <ColumnDefinition Width="15"/>
+            </Grid.ColumnDefinitions>
+
+            <Image Grid.Column="1"
+                   Width="20" Height="20"
+                   Source="/Assets/listen.png"
+                   RenderOptions.BitmapScalingMode="Fant"
+                   VerticalAlignment="Center"/>
+
+            <TextBlock Text="MusicLib"
+                       Foreground="White"
+                       Grid.Column="2"
+                       VerticalAlignment="Center"
+                       HorizontalAlignment="Left"
+                       FontFamily="Fonts/Samsung.ttf#Samsung Sans"/>
+
+            <TextBlock Text="Login"
+                       Foreground="LightGray"
+                       Grid.Column="4"
+                       VerticalAlignment="Center"
+                       HorizontalAlignment="Center"
+                       FontFamily="Fonts/Samsung.ttf#Samsung Sans"
+                       Cursor="Hand"
+                       MouseLeftButtonUp="Nav_Login"/>
+
+            <TextBlock Text="About"
+                       Foreground="LightGray"
+                       Grid.Column="5"
+                       VerticalAlignment="Center"
+                       HorizontalAlignment="Center"
+                       FontFamily="Fonts/Samsung.ttf#Samsung Sans"
+                       Cursor="Hand"
+                       MouseLeftButtonUp="Nav_About"/>
+        </Grid>
+
+        <StackPanel Grid.Row="1" Grid.Column="0"
+                    VerticalAlignment="Center"
+                    Margin="60">
+
+            <TextBlock Text="Music"
+                       Foreground="White"
+                       FontSize="35"
+                       FontWeight="Medium"
+                       FontFamily="Fonts/Samsung.ttf#Samsung Sans"/>
+
+            <TextBlock Text="For"
+                       Foreground="White"
+                       FontSize="35"
+                       FontWeight="Medium"
+                       FontFamily="Fonts/Samsung.ttf#Samsung Sans"/>
+
+            <TextBlock Text="Everyone"
+                       Foreground="#a855f7"
+                       FontSize="35"
+                       FontWeight="Medium"
+                       FontFamily="Fonts/Samsung.ttf#Samsung Sans"/>
+
+            <TextBlock Text="A music library management system for organizing songs, albums, and artists. Made by a fellow music lover and a Siyentista from Bicol University"
+                       Foreground="White"
+                       FontSize="14"
+                       FontWeight="Medium"
+                       FontFamily="Fonts/Samsung.ttf#Samsung Sans"
+                       TextWrapping="Wrap"
+                       TextAlignment="Justify"
+                       Margin="0,10,0,0"/>
+
+            <StackPanel Orientation="Horizontal" Margin="0,15,0,0">
+                <Button Content="Start"
+                        Foreground="White"
+                        FontSize="14"
+                        FontWeight="Medium"
+                        Margin="0,0,10,0"
+                        Click="BtnStart_Click">
+                    <Button.Style>
+                        <Style TargetType="Button">
+                            <Setter Property="TextElement.FontFamily" Value="Fonts/Samsung.ttf#Samsung Sans"/>
+                            <Setter Property="Background" Value="#a855f7"/>
+                            <Setter Property="Cursor" Value="Hand"/>
+                            <Style.Triggers>
+                                <Trigger Property="IsMouseOver" Value="True">
+                                    <Setter Property="Background" Value="#6b21a8"/>
+                                </Trigger>
+                            </Style.Triggers>
+                        </Style>
+                    </Button.Style>
+                    <Button.Template>
+                        <ControlTemplate TargetType="Button">
+                            <Border Width="100" Height="30"
+                                    CornerRadius="12"
+                                    Background="{TemplateBinding Background}">
+                                <ContentPresenter VerticalAlignment="Center"
+                                                  HorizontalAlignment="Center"/>
+                            </Border>
+                        </ControlTemplate>
+                    </Button.Template>
+                </Button>
+
+                <Button Content="Register"
+                        Foreground="White"
+                        FontSize="14"
+                        FontWeight="Medium"
+                        Click="BtnRegister_Click">
+                    <Button.Style>
+                        <Style TargetType="Button">
+                            <Setter Property="TextElement.FontFamily" Value="Fonts/Samsung.ttf#Samsung Sans"/>
+                            <Setter Property="Background" Value="#3d3750"/>
+                            <Setter Property="Cursor" Value="Hand"/>
+                            <Style.Triggers>
+                                <Trigger Property="IsMouseOver" Value="True">
+                                    <Setter Property="Background" Value="#353048"/>
+                                </Trigger>
+                            </Style.Triggers>
+                        </Style>
+                    </Button.Style>
+                    <Button.Template>
+                        <ControlTemplate TargetType="Button">
+                            <Border Width="100" Height="30"
+                                    CornerRadius="12"
+                                    Background="{TemplateBinding Background}">
+                                <ContentPresenter VerticalAlignment="Center"
+                                                  HorizontalAlignment="Center"/>
+                            </Border>
+                        </ControlTemplate>
+                    </Button.Template>
+                </Button>
+            </StackPanel>
+
+        </StackPanel>
+
+        <Image Grid.Row="1" Grid.Column="1"
+               Source="/Assets/sidepic6.jpg"
+               Opacity="0.5"
+               RenderOptions.BitmapScalingMode="Fant"
+               Stretch="UniformToFill"/>
+
+        <ContentControl x:Name="MainContent" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2"/>
+
+    </Grid>
+</Window>

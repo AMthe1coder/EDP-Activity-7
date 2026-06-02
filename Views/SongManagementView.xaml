@@ -1,0 +1,217 @@
+<UserControl x:Class="SystemUI.Views.SongManagementView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             d:DesignHeight="460" d:DesignWidth="900"
+             Background="#2d283e">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <!-- Nav -->
+        <Grid Background="#2A1B3D" Grid.ColumnSpan="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="15"/>
+                <ColumnDefinition Width="30"/>
+                <ColumnDefinition Width="90"/>
+                <ColumnDefinition/>
+                <ColumnDefinition Width="90"/>
+                <ColumnDefinition Width="60"/>
+                <ColumnDefinition Width="70"/>
+                <ColumnDefinition Width="80"/>
+                <ColumnDefinition Width="60"/>
+                <ColumnDefinition Width="70"/>
+                <ColumnDefinition Width="65"/>
+                <ColumnDefinition Width="15"/>
+            </Grid.ColumnDefinitions>
+            <Image Grid.Column="1" Width="20" Height="20" Source="/Assets/listen.png" RenderOptions.BitmapScalingMode="Fant" VerticalAlignment="Center"/>
+            <TextBlock Text="MusicLib" Foreground="White" Grid.Column="2" VerticalAlignment="Center" HorizontalAlignment="Left" FontFamily="Fonts/Samsung.ttf#Samsung Sans"/>
+            <TextBlock Text="Dashboard" Foreground="LightGray" Grid.Column="4" VerticalAlignment="Center" HorizontalAlignment="Center" FontFamily="Fonts/Samsung.ttf#Samsung Sans" Cursor="Hand" MouseLeftButtonUp="Nav_Dashboard"/>
+            <TextBlock Text="Songs" Foreground="White" Grid.Column="5" VerticalAlignment="Center" HorizontalAlignment="Center" FontFamily="Fonts/Samsung.ttf#Samsung Sans"/>
+            <TextBlock Text="Playlists" Foreground="LightGray" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Center" FontFamily="Fonts/Samsung.ttf#Samsung Sans" Cursor="Hand" MouseLeftButtonUp="Nav_Playlists"/>
+            <TextBlock Text="Borrowing" Foreground="LightGray" Grid.Column="7" VerticalAlignment="Center" HorizontalAlignment="Center" FontFamily="Fonts/Samsung.ttf#Samsung Sans" Cursor="Hand" MouseLeftButtonUp="Nav_Borrowing"/>
+            <TextBlock Text="Users" Foreground="LightGray" Grid.Column="8" VerticalAlignment="Center" HorizontalAlignment="Center" FontFamily="Fonts/Samsung.ttf#Samsung Sans" Cursor="Hand" MouseLeftButtonUp="Nav_Users"/>
+            <TextBlock Text="Reports" Foreground="LightGray" Grid.Column="9" VerticalAlignment="Center" HorizontalAlignment="Center" FontFamily="Fonts/Samsung.ttf#Samsung Sans" Cursor="Hand" MouseLeftButtonUp="Nav_Reports"/>
+            <TextBlock Text="Logout" Foreground="#a855f7" Grid.Column="10" VerticalAlignment="Center" HorizontalAlignment="Center" FontFamily="Fonts/Samsung.ttf#Samsung Sans" Cursor="Hand" MouseLeftButtonUp="Nav_Logout"/>
+        </Grid>
+
+        <Grid Grid.Row="1" Margin="20">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="280"/>
+                <ColumnDefinition Width="16"/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <!-- Form Panel -->
+            <Border Grid.Column="0" Background="#2A1B3D" CornerRadius="10" Padding="20">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+
+                    <ScrollViewer Grid.Row="0" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled" Margin="0,0,0,16">
+                        <StackPanel>
+                            <TextBlock x:Name="lblFormTitle" Text="Add Song" Foreground="#a855f7" FontSize="16" FontWeight="Bold" FontFamily="Fonts/Samsung.ttf#Samsung Sans" Margin="0,0,0,16"/>
+
+                            <TextBlock Text="Title" Foreground="LightGray" FontSize="11" FontFamily="Fonts/Samsung.ttf#Samsung Sans" Margin="0,0,0,4"/>
+                            <TextBox x:Name="txtTitle" Background="#3d3750" Foreground="White" FontFamily="Fonts/Samsung.ttf#Samsung Sans" FontSize="12" BorderThickness="0" Padding="10,6" Margin="0,0,0,12"/>
+
+                            <TextBlock Text="Artist" Foreground="LightGray" FontSize="11" FontFamily="Fonts/Samsung.ttf#Samsung Sans" Margin="0,0,0,4"/>
+                            <TextBox x:Name="txtArtist" Background="#3d3750" Foreground="White" FontFamily="Fonts/Samsung.ttf#Samsung Sans" FontSize="12" BorderThickness="0" Padding="10,6" Margin="0,0,0,12"/>
+
+                            <TextBlock Text="Album" Foreground="LightGray" FontSize="11" FontFamily="Fonts/Samsung.ttf#Samsung Sans" Margin="0,0,0,4"/>
+                            <TextBox x:Name="txtAlbum" Background="#3d3750" Foreground="White" FontFamily="Fonts/Samsung.ttf#Samsung Sans" FontSize="12" BorderThickness="0" Padding="10,6" Margin="0,0,0,12"/>
+
+                            <TextBlock Text="Genre" Foreground="LightGray" FontSize="11" FontFamily="Fonts/Samsung.ttf#Samsung Sans" Margin="0,0,0,4"/>
+                            <TextBox x:Name="txtGenre" Background="#3d3750" Foreground="White" FontFamily="Fonts/Samsung.ttf#Samsung Sans" FontSize="12" BorderThickness="0" Padding="10,6" Margin="0,0,0,12"/>
+
+                            <TextBlock Text="Duration (e.g. 3:45)" Foreground="LightGray" FontSize="11" FontFamily="Fonts/Samsung.ttf#Samsung Sans" Margin="0,0,0,4"/>
+                            <TextBox x:Name="txtDuration" Background="#3d3750" Foreground="White" FontFamily="Fonts/Samsung.ttf#Samsung Sans" FontSize="12" BorderThickness="0" Padding="10,6" Margin="0,0,0,12"/>
+
+                            <TextBlock Text="Year Released" Foreground="LightGray" FontSize="11" FontFamily="Fonts/Samsung.ttf#Samsung Sans" Margin="0,0,0,4"/>
+                            <TextBox x:Name="txtYear" Background="#3d3750" Foreground="White" FontFamily="Fonts/Samsung.ttf#Samsung Sans" FontSize="12" BorderThickness="0" Padding="10,6" Margin="0,0,0,8"/>
+
+                            <TextBlock x:Name="lblFormStatus" FontSize="11" FontFamily="Fonts/Samsung.ttf#Samsung Sans" TextWrapping="Wrap" Visibility="Collapsed" Margin="0,0,0,10"/>
+                        </StackPanel>
+                    </ScrollViewer>
+
+                    <UniformGrid Grid.Row="1" Columns="3" Rows="1">
+                        <Button x:Name="btnSave" Content="Save" Foreground="White" FontSize="12" FontFamily="Fonts/Samsung.ttf#Samsung Sans" Click="BtnSave_Click" Margin="0,0,4,0">
+                            <Button.Style>
+                                <Style TargetType="Button">
+                                    <Setter Property="Background" Value="#a855f7"/>
+                                    <Setter Property="Cursor" Value="Hand"/>
+                                    <Style.Triggers>
+                                        <Trigger Property="IsMouseOver" Value="True">
+                                            <Setter Property="Background" Value="#6b21a8"/>
+                                        </Trigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </Button.Style>
+                            <Button.Template>
+                                <ControlTemplate TargetType="Button">
+                                    <Border Height="30" CornerRadius="8" Background="{TemplateBinding Background}">
+                                        <ContentPresenter VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                                    </Border>
+                                </ControlTemplate>
+                            </Button.Template>
+                        </Button>
+                        <Button Content="Delete" Foreground="White" FontSize="12" FontFamily="Fonts/Samsung.ttf#Samsung Sans" Click="BtnDelete_Click" Margin="4,0,4,0">
+                            <Button.Style>
+                                <Style TargetType="Button">
+                                    <Setter Property="Background" Value="#c0392b"/>
+                                    <Setter Property="Cursor" Value="Hand"/>
+                                    <Style.Triggers>
+                                        <Trigger Property="IsMouseOver" Value="True">
+                                            <Setter Property="Background" Value="#96281b"/>
+                                        </Trigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </Button.Style>
+                            <Button.Template>
+                                <ControlTemplate TargetType="Button">
+                                    <Border Height="30" CornerRadius="8" Background="{TemplateBinding Background}">
+                                        <ContentPresenter VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                                    </Border>
+                                </ControlTemplate>
+                            </Button.Template>
+                        </Button>
+                        <Button Content="Clear" Foreground="White" FontSize="12" FontFamily="Fonts/Samsung.ttf#Samsung Sans" Click="BtnClear_Click" Margin="4,0,0,0">
+                            <Button.Style>
+                                <Style TargetType="Button">
+                                    <Setter Property="Background" Value="#3d3750"/>
+                                    <Setter Property="Cursor" Value="Hand"/>
+                                    <Style.Triggers>
+                                        <Trigger Property="IsMouseOver" Value="True">
+                                            <Setter Property="Background" Value="#353048"/>
+                                        </Trigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </Button.Style>
+                            <Button.Template>
+                                <ControlTemplate TargetType="Button">
+                                    <Border Height="30" CornerRadius="8" Background="{TemplateBinding Background}">
+                                        <ContentPresenter VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                                    </Border>
+                                </ControlTemplate>
+                            </Button.Template>
+                        </Button>
+                    </UniformGrid>
+                </Grid>
+            </Border>
+
+            <!-- DataGrid Panel -->
+            <Grid Grid.Column="2">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="12"/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+
+                <StackPanel Orientation="Horizontal">
+                    <TextBox x:Name="txtSearch" Background="#3d3750" Foreground="White" FontFamily="Fonts/Samsung.ttf#Samsung Sans" FontSize="12" BorderThickness="0" Padding="10,6" Width="220" Margin="0,0,10,0"/>
+                    <Button Content="Search" Foreground="White" FontSize="12" FontFamily="Fonts/Samsung.ttf#Samsung Sans" Click="BtnSearch_Click" Margin="0,0,8,0">
+                        <Button.Style>
+                            <Style TargetType="Button">
+                                <Setter Property="Background" Value="#a855f7"/>
+                                <Setter Property="Cursor" Value="Hand"/>
+                            </Style>
+                        </Button.Style>
+                        <Button.Template>
+                            <ControlTemplate TargetType="Button">
+                                <Border Width="80" Height="30" CornerRadius="8" Background="{TemplateBinding Background}">
+                                    <ContentPresenter VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                                </Border>
+                            </ControlTemplate>
+                        </Button.Template>
+                    </Button>
+                    <Button Content="Load All" Foreground="White" FontSize="12" FontFamily="Fonts/Samsung.ttf#Samsung Sans" Click="BtnLoadAll_Click">
+                        <Button.Style>
+                            <Style TargetType="Button">
+                                <Setter Property="Background" Value="#3d3750"/>
+                                <Setter Property="Cursor" Value="Hand"/>
+                            </Style>
+                        </Button.Style>
+                        <Button.Template>
+                            <ControlTemplate TargetType="Button">
+                                <Border Width="80" Height="30" CornerRadius="8" Background="{TemplateBinding Background}">
+                                    <ContentPresenter VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                                </Border>
+                            </ControlTemplate>
+                        </Button.Template>
+                    </Button>
+                </StackPanel>
+
+                <DataGrid x:Name="dgSongs" Grid.Row="2"
+                          Background="#2A1B3D" Foreground="White" FontFamily="Fonts/Samsung.ttf#Samsung Sans" FontSize="12"
+                          BorderThickness="0" RowBackground="#2A1B3D" AlternatingRowBackground="#3d3750"
+                          GridLinesVisibility="None" HeadersVisibility="Column"
+                          AutoGenerateColumns="False" IsReadOnly="True" SelectionMode="Single"
+                          SelectionChanged="DgSongs_SelectionChanged" CanUserResizeRows="False">
+                    <DataGrid.ColumnHeaderStyle>
+                        <Style TargetType="DataGridColumnHeader">
+                            <Setter Property="Background" Value="#2A1B3D"/>
+                            <Setter Property="Foreground" Value="#a855f7"/>
+                            <Setter Property="FontFamily" Value="Fonts/Samsung.ttf#Samsung Sans"/>
+                            <Setter Property="Padding" Value="10,6"/>
+                        </Style>
+                    </DataGrid.ColumnHeaderStyle>
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Header="ID"       Binding="{Binding id}"            Width="40"/>
+                        <DataGridTextColumn Header="Title"    Binding="{Binding title}"          Width="*"/>
+                        <DataGridTextColumn Header="Artist"   Binding="{Binding artist}"         Width="*"/>
+                        <DataGridTextColumn Header="Album"    Binding="{Binding album}"          Width="*"/>
+                        <DataGridTextColumn Header="Genre"    Binding="{Binding genre}"          Width="80"/>
+                        <DataGridTextColumn Header="Duration" Binding="{Binding duration}"       Width="70"/>
+                        <DataGridTextColumn Header="Year"     Binding="{Binding year_released}"  Width="55"/>
+                    </DataGrid.Columns>
+                </DataGrid>
+            </Grid>
+        </Grid>
+    </Grid>
+</UserControl>

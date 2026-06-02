@@ -1,0 +1,170 @@
+<UserControl x:Class="SystemUI.Views.ReportGeneratorView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             d:DesignHeight="500" d:DesignWidth="900"
+             Background="#2d283e">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="320"/>
+        </Grid.ColumnDefinitions>
+
+        <!-- Nav -->
+        <Grid Background="#2A1B3D" Grid.ColumnSpan="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="15"/>
+                <ColumnDefinition Width="30"/>
+                <ColumnDefinition Width="90"/>
+                <ColumnDefinition/>
+                <ColumnDefinition Width="90"/>
+                <ColumnDefinition Width="60"/>
+                <ColumnDefinition Width="70"/>
+                <ColumnDefinition Width="80"/>
+                <ColumnDefinition Width="60"/>
+                <ColumnDefinition Width="70"/>
+                <ColumnDefinition Width="65"/>
+                <ColumnDefinition Width="15"/>
+            </Grid.ColumnDefinitions>
+            <Image Grid.Column="1" Width="20" Height="20" Source="/Assets/listen.png" RenderOptions.BitmapScalingMode="Fant" VerticalAlignment="Center"/>
+            <TextBlock Text="MusicLib" Foreground="White" Grid.Column="2" VerticalAlignment="Center" HorizontalAlignment="Left" FontFamily="Fonts/Samsung.ttf#Samsung Sans"/>
+            <TextBlock Text="Dashboard" Foreground="LightGray" Grid.Column="4" VerticalAlignment="Center" HorizontalAlignment="Center" FontFamily="Fonts/Samsung.ttf#Samsung Sans" Cursor="Hand" MouseLeftButtonUp="Nav_Dashboard"/>
+            <TextBlock Text="Songs" Foreground="LightGray" Grid.Column="5" VerticalAlignment="Center" HorizontalAlignment="Center" FontFamily="Fonts/Samsung.ttf#Samsung Sans" Cursor="Hand" MouseLeftButtonUp="Nav_Songs"/>
+            <TextBlock Text="Playlists" Foreground="LightGray" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Center" FontFamily="Fonts/Samsung.ttf#Samsung Sans" Cursor="Hand" MouseLeftButtonUp="Nav_Playlists"/>
+            <TextBlock Text="Borrowing" Foreground="LightGray" Grid.Column="7" VerticalAlignment="Center" HorizontalAlignment="Center" FontFamily="Fonts/Samsung.ttf#Samsung Sans" Cursor="Hand" MouseLeftButtonUp="Nav_Borrowing"/>
+            <TextBlock Text="Users" Foreground="LightGray" Grid.Column="8" VerticalAlignment="Center" HorizontalAlignment="Center" FontFamily="Fonts/Samsung.ttf#Samsung Sans" Cursor="Hand" MouseLeftButtonUp="Nav_Users"/>
+            <TextBlock Text="Reports" Foreground="White" Grid.Column="9" VerticalAlignment="Center" HorizontalAlignment="Center" FontFamily="Fonts/Samsung.ttf#Samsung Sans"/>
+            <TextBlock Text="Logout" Foreground="#a855f7" Grid.Column="10" VerticalAlignment="Center" HorizontalAlignment="Center" FontFamily="Fonts/Samsung.ttf#Samsung Sans" Cursor="Hand" MouseLeftButtonUp="Nav_Logout"/>
+        </Grid>
+
+        <!-- Main DataGrid area -->
+        <Grid Grid.Row="1" Grid.Column="0" Margin="30">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="10"/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+
+            <StackPanel Grid.Row="0">
+                <TextBlock Text="Report Generator" Foreground="White" FontSize="22" FontWeight="Bold" FontFamily="Fonts/Samsung.ttf#Samsung Sans" Margin="0,0,0,4"/>
+                <TextBlock Text="Select a report type and preview below. Then export to Excel." Foreground="LightGray" FontSize="12" FontFamily="Fonts/Samsung.ttf#Samsung Sans"/>
+            </StackPanel>
+
+            <Border Grid.Row="2" Background="#3d3750" CornerRadius="10" Padding="16">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="10"/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+                    <TextBlock Text="Data Preview" Foreground="#a855f7" FontSize="13" FontWeight="Bold" FontFamily="Fonts/Samsung.ttf#Samsung Sans"/>
+                    <DataGrid x:Name="dgPreview" Grid.Row="2"
+                              Background="#2A1B3D" Foreground="White" FontFamily="Fonts/Samsung.ttf#Samsung Sans" FontSize="11"
+                              BorderThickness="0" RowBackground="#2A1B3D" AlternatingRowBackground="#3d3750"
+                              GridLinesVisibility="None" HeadersVisibility="Column"
+                              AutoGenerateColumns="True" IsReadOnly="True" CanUserResizeRows="False">
+                        <DataGrid.ColumnHeaderStyle>
+                            <Style TargetType="DataGridColumnHeader">
+                                <Setter Property="Background" Value="#2A1B3D"/>
+                                <Setter Property="Foreground" Value="#a855f7"/>
+                                <Setter Property="FontFamily" Value="Fonts/Samsung.ttf#Samsung Sans"/>
+                                <Setter Property="Padding" Value="8,5"/>
+                            </Style>
+                        </DataGrid.ColumnHeaderStyle>
+                    </DataGrid>
+                </Grid>
+            </Border>
+        </Grid>
+
+        <!-- Options panel -->
+        <Border Grid.Row="1" Grid.Column="1" Background="#2A1B3D" Padding="24">
+            <StackPanel VerticalAlignment="Center">
+
+                <TextBlock Text="Report Options" Foreground="White" FontSize="16" FontWeight="Bold" FontFamily="Fonts/Samsung.ttf#Samsung Sans" Margin="0,0,0,20"/>
+
+                <TextBlock Text="Report Type" Foreground="#a855f7" FontSize="12" FontFamily="Fonts/Samsung.ttf#Samsung Sans" Margin="0,0,0,4"/>
+                <ComboBox x:Name="cmbReportType"
+                          Background="#3d3750"
+                          Foreground="White"
+                          FontFamily="Fonts/Samsung.ttf#Samsung Sans"
+                          FontSize="12"
+                          BorderThickness="0"
+                          Padding="10,6"
+                          Margin="0,0,0,16"
+                          SelectionChanged="CmbReportType_SelectionChanged">
+                    <ComboBox.ItemContainerStyle>
+                        <Style TargetType="ComboBoxItem">
+                            <Setter Property="Foreground" Value="White"/>
+                        </Style>
+                    </ComboBox.ItemContainerStyle>
+                    <ComboBoxItem Content="Songs Report" IsSelected="True"/>
+                    <ComboBoxItem Content="Playlists Report"/>
+                    <ComboBoxItem Content="Borrowing Report"/>
+                </ComboBox>
+
+                <TextBlock Text="Signed By (for report footer)" Foreground="#a855f7" FontSize="12" FontFamily="Fonts/Samsung.ttf#Samsung Sans" Margin="0,0,0,4"/>
+                <TextBox x:Name="txtSignedBy" Background="#3d3750" Foreground="White" FontFamily="Fonts/Samsung.ttf#Samsung Sans" FontSize="12" BorderThickness="0" Padding="10,6" Margin="0,0,0,16" Text="Alyssa Mae Brucelo"/>
+
+                <TextBlock Text="File Name" Foreground="#a855f7" FontSize="12" FontFamily="Fonts/Samsung.ttf#Samsung Sans" Margin="0,0,0,4"/>
+                <TextBox x:Name="txtFileName" Background="#3d3750" Foreground="White" FontFamily="Fonts/Samsung.ttf#Samsung Sans" FontSize="12" BorderThickness="0" Padding="10,6" Margin="0,0,0,16" Text="MusicLib_Report"/>
+
+                <TextBlock Text="Save Location (fixed)" Foreground="#a855f7" FontSize="12" FontFamily="Fonts/Samsung.ttf#Samsung Sans" Margin="0,0,0,4"/>
+                <StackPanel Orientation="Horizontal" Margin="0,0,0,24">
+                    <TextBox x:Name="txtSavePath" Background="#3d3750" Foreground="White" FontFamily="Fonts/Samsung.ttf#Samsung Sans" FontSize="12" BorderThickness="0" Padding="10,6" Width="260" IsReadOnly="True"/>
+                </StackPanel>
+
+                <Button Content="Preview Data" Foreground="White" FontSize="13" FontWeight="Medium" FontFamily="Fonts/Samsung.ttf#Samsung Sans" Click="BtnPreview_Click" Margin="0,0,0,8">
+                    <Button.Style>
+                        <Style TargetType="Button">
+                            <Setter Property="Background" Value="#3d3750"/>
+                            <Setter Property="Cursor" Value="Hand"/>
+                            <Style.Triggers>
+                                <Trigger Property="IsMouseOver" Value="True">
+                                    <Setter Property="Background" Value="#353048"/>
+                                </Trigger>
+                            </Style.Triggers>
+                        </Style>
+                    </Button.Style>
+                    <Button.Template>
+                        <ControlTemplate TargetType="Button">
+                            <Border Height="36" CornerRadius="10" Background="{TemplateBinding Background}">
+                                <ContentPresenter VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                            </Border>
+                        </ControlTemplate>
+                    </Button.Template>
+                </Button>
+
+                <Button Content="Export to Excel" Foreground="White" FontSize="13" FontWeight="Medium" FontFamily="Fonts/Samsung.ttf#Samsung Sans" Click="BtnGenerate_Click">
+                    <Button.Style>
+                        <Style TargetType="Button">
+                            <Setter Property="Background" Value="#a855f7"/>
+                            <Setter Property="Cursor" Value="Hand"/>
+                            <Style.Triggers>
+                                <Trigger Property="IsMouseOver" Value="True">
+                                    <Setter Property="Background" Value="#6b21a8"/>
+                                </Trigger>
+                            </Style.Triggers>
+                        </Style>
+                    </Button.Style>
+                    <Button.Template>
+                        <ControlTemplate TargetType="Button">
+                            <Border Height="36" CornerRadius="10" Background="{TemplateBinding Background}">
+                                <ContentPresenter VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                            </Border>
+                        </ControlTemplate>
+                    </Button.Template>
+                </Button>
+
+                <TextBlock x:Name="lblStatus" Foreground="LightGreen" FontSize="11" FontFamily="Fonts/Samsung.ttf#Samsung Sans" HorizontalAlignment="Center" Margin="0,10,0,0" TextWrapping="Wrap" Visibility="Collapsed"/>
+            </StackPanel>
+        </Border>
+
+    </Grid>
+</UserControl>
